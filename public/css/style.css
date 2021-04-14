@@ -1,0 +1,374 @@
+/* importing the fonts  */
+@font-face {
+  font-family: Logo1;
+  src: url(../fonts/UncialAntiqua-Regular.ttf);
+}
+
+@font-face {
+  font-family: Logo2;
+  src: url(../fonts/ZhiMangXing-Regular.ttf);
+}
+
+@font-face {
+  font-family: heading;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: regular;
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+
+/* ================== Importing fonts  ================ */
+
+.navbar-fixed,
+.navbar-fixed nav,
+.navbar-fixed nav a,
+.navbar-fixed nav a i.fa {
+  height: 50px;
+  line-height: 50px;
+}
+
+.navbar {
+  /* background: linear-gradient(to right, rgb(0, 180, 219), rgb(0, 131, 176)); */
+  /* background: ; */
+  background: linear-gradient(to right, rgb(195, 20, 50), rgb(36, 11, 54));
+}
+
+.nav-wrapper {
+  padding: 0px 25px;
+}
+
+
+.brand-logo {
+  font-family: Logo1;
+}
+
+.sidenav-overlay {
+  left: 300px !important;
+}
+
+
+/* navigation ends  */
+
+/* slider starts */
+.btn-item {
+  background: linear-gradient(to bottom right, rgb(255, 65, 108), rgb(255, 75, 43));
+}
+
+.btn-item:hover,
+.btn-item:focus {
+  background: linear-gradient(to bottom right, rgb(255, 59, 24), rgb(255, 49, 97));
+}
+
+.owl-carousel .owl-item {
+  min-height: 630px !important;
+  max-height: 650px !important;
+  overflow-y: hidden !important;
+}
+
+.owl-carousel .owl-item img {
+  width: 100%;
+  height: auto;
+}
+
+.items {
+  position: relative;
+}
+
+.itemWrap {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 630px;
+  height: 100%;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.itemCont {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin: 50px auto;
+  color: #ffffff;
+}
+
+.itemHead {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  font-family: heading;
+  margin: 3rem 0px;
+}
+
+.itemDesc {
+  font-family: regular;
+  font-size: 1.8rem;
+  margin: 2rem 0;
+  letter-spacing: 2px;
+  line-height: 36px;
+}
+
+.itemImage1 {
+  background-image:
+    linear-gradient(to bottom right,
+      rgba(18, 194, 233, 0.664), rgba(196, 113, 237, 0.726), rgba(246, 79, 90, 0.849)),
+    url('../images/slider/Bihar-Museum-SpaceMatters-Snohetta-6.jpg');
+
+}
+
+.itemImage2 {
+  background-image:
+    linear-gradient(to right, rgba(175, 0, 41, 0.801), rgba(180, 53, 31, 0.705)),
+    url('../images/slider/Buddha_Smriti_Park_Patna.jpg');
+
+}
+
+.itemImage3 {
+  background-image: linear-gradient(to bottom left, rgba(101, 153, 153, 0.801),
+      rgba(244, 120, 31, 0.774)),
+    url('../images/slider/Bihar-Museum-SpaceMatters-Snohetta-6.jpg');
+
+}
+
+.itemImage4 {
+  background-image:
+    linear-gradient(to bottom, rgba(248, 119, 44, 0.678),
+      rgba(121, 7, 35, 0.89)),
+    url('../images/slider/Bihar-Museum-SpaceMatters-Snohetta-6.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+/* about section stats  */
+#aboutSection,
+#feature {
+  padding: 100px 0px 75px 0px;
+}
+
+.secti-head {
+  font-family: heading;
+  line-height: 48px;
+  font-size: 2.15rem;
+  margin-bottom: 1.8rem;
+}
+
+.secti-desc {
+  font-family: regular;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 36px;
+  color: #808080;
+  margin-bottom: 0.8em;
+}
+
+/* / about section ends  */
+
+/* feacture section  */
+.sectionHeadig {
+  color: #c31432;
+}
+
+.underline {
+  width: 95%;
+  height: 8px;
+  border: 2px solid transparent;
+  border-radius: 60px 0px 60px 0px;
+  background: linear-gradient(to right, #c31432, #240b36);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card .card-title {
+  font-weight: 400 !important;
+}
+
+.FetImage {
+  width: 100%;
+  height: auto;
+  max-height: 485px;
+  overflow-y: hidden;
+}
+
+.relImg {
+  width: 100%;
+  height: auto;
+  max-height: 175px;
+  overflow-y: hidden;
+}
+
+/* feacture section  */
+
+/* Individual page  */
+.PageIntro {
+  width: 100%;
+  min-height: 350px;
+  height: auto;
+  overflow-y: hidden;
+  background-image: linear-gradient(to right, rgba(195, 20, 49, 0.7), rgba(36, 11, 54, 0.76)), url(../images/Tourism/EcoTourism/Ecoslider2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.PageIntroTitle {
+  position: relative;
+}
+
+.PageIntro {
+  color: white;
+}
+
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #ffffff;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #ce113a;
+  text-decoration: underline;
+}
+
+.PageHeading {
+  font-family: heading;
+  color: #424242;
+  margin-bottom: 25px;
+}
+
+.Pagedesc {
+  color: #808080;
+  font-family: regular;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  margin: 25px 0px;
+}
+
+.PagesecHeading {
+  font-family: heading;
+  color: #424242;
+  margin: 18px 0 15px 0;
+}
+
+.cardHead {
+  font-family: heading;
+  color: #424242;
+}
+
+.cardDesc {
+  color: #808080;
+  font-family: regular;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  margin: 18px 0px 15px 0;
+}
+
+.collection,
+.collection-header,
+.collection-item {
+  border: 1px solid #fff;
+  border-bottom: 1px solid #ffffff !important;
+}
+
+/* contact us form  */
+input[type='email'],
+input[type='password'],
+input[type='text'],
+input[type='tel'] {
+  box-shadow: none !important;
+  height: 50px !important;
+  outline: none !important;
+  font-size: 16px !important;
+  border: 1px solid #808080;
+}
+
+::placeholder {
+  font-size: 16px;
+  color: #434b52 !important;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 16px;
+  color: #434b52 !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  font-size: 16px;
+  color: #434b52 !important;
+}
+
+textarea {
+  width: 100%;
+  height: 20rem;
+  border: 2px solid #acb9c3;
+  background-color: transparent;
+  outline-color: transparent;
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #424242;
+}
+
+input[type='email']:focus,
+input[type='password']:focus,
+input[type='text']:focus,
+input[type='tel']:focus,
+.textarea:focus {
+  box-shadow: none !important;
+  border: 2px solid #f00654 !important;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+  color: #434b52 !important;
+  box-sizing: border-box !important;
+  background-color: #fff !important;
+  background-clip: padding-box !important;
+  border: 2px solid #acb9c3 !important;
+  border-radius: 0.25rem !important;
+  transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out !important;
+}
+
+.textarea {
+  height: 200px;
+  box-shadow: none !important;
+  outline: none !important;
+  font-size: 18px !important;
+  padding: 16px 8px !important;
+}
